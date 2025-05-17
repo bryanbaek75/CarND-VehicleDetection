@@ -35,7 +35,7 @@ def initialize(maxload=1000000):
     global svc,X_scaler,param
 
     #Initialize parameter 
-    param.color_space = 'GRAY' 
+    param.cspace = 'GRAY'
     param.orient = 8  
     param.pix_per_cell = 16 
     param.cell_per_block = 1 
